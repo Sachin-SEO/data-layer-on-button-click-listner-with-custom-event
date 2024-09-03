@@ -5,3 +5,15 @@
     });
 });
 </script>
+
+
+//this code will gather page url dynamically
+</script>
+document.querySelector('.bYACar').addEventListener('click', function() {
+    dataLayer.push({
+        'event': 'buttonClick',
+        'buttonName': 'Add to Basket',
+        'pageURL': window.location.href
+    });
+});
+</script>
